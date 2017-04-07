@@ -1,0 +1,22 @@
+
+.am-checkbox.am-checkbox-checked .am-checkbox-inner {
+	border-color: #108ee9
+}
+
+.am-checkbox.am-checkbox-checked .am-checkbox-inner:after {
+	display: block;
+	border-color: #108ee9
+}
+
+.am-checkbox.am-checkbox-disabled {
+	opacity: .3
+}
+
+.am-checkbox.am-checkbox-disabled.am-checkbox-checked .am-checkbox-inner,.am-checkbox.am-checkbox-disabled.am-checkbox-checked .am-checkbox-inner:after {
+	border-color: #888
+}
+
+.am-list .am-list-item.am-checkbox-item .am-list-thumb {
+	width: .42rem;
+	height: .42rem
+}
